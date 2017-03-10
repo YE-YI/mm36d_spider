@@ -14,7 +14,6 @@ class PinhuasheSpider(Spider):
     home_url = "http://mm36d.com/home/0/"
     totlePage = 46  # 爬取总页数可以根据需要自行修改 网站可以一直下一页 总页数仔细查找下
 
-    # https://www.zhihu.com/question/27621722/answers/created
 
     def parse(self, response):
         sel = Selector(response)
